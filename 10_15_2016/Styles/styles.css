@@ -1,0 +1,42 @@
+form{
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fdeaf8;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+label{
+    height: 25px;
+    color: #000;
+    padding-top: 15px;
+    width: 100%;
+    display: block;
+}
+
+#reset{
+    color: #ff0000;
+    background-color: #e8f987;
+    border-radius: 8px;
+    line-height: 25px;
+    box-shadow: 0 1px 0 #86c;
+    transition: all 0.1s linear;
+}
+
+button[type="submit"]{
+    color: #fff;
+    background-color: #79de7c;
+    line-height: 25px;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 #86c;
+    transition: all 0.1s linear;
+}
+
+#fullName, #IDnumber, #phoneNumber, #email, #Password, #Age{
+    border-radius: 7px;
+    background-color: #ecedfc;
+}
+
