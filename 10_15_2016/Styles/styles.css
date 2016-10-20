@@ -40,3 +40,13 @@ button[type="submit"]{
     background-color: #ecedfc;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 250px;
+}

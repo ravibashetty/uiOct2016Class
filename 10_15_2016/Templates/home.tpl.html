@@ -19,125 +19,90 @@
         <meta charset="UTF-8" />
 
     </head>
-        <!--body of the web page-->
-        <body background="http://www.vikingmergers.com/wp-content/uploads/2015/04/Insurance.jpg">
-            <!--main article for forms-->
-            <article>
-                <style>
-                    .navBAR{margin:0 auto; width:1080px;}
-                    .navBAR ul {padding:0px;} <!--/*this will align all links vertically*/-->
-                    .navBAR ul li {float:left; margin:1px; position:relative; background-color:#ee3ec3; border-radius:5px; list-style-type:none;}
-                    .navBAR ul li a {text-decoration:none; color:white; padding:5px; font-weight:bolder; display:block; width:200px; text-align:center;}
-                    .navBAR ul li ul{position:absolute; visibility:hidden;}
-                    .navBAR ul li:hover ul{visibility:visible;}
-                    .navBAR ul li a:hover{color:blue;}
-                    .navBAR ul li:hover{background-color:aqua;}
-                </style>
-
-
-            <div class="navBAR">
-                <ul>
-                    <li><a href="#">Home</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li><a href="#">Insurance</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li><a href="#">Banking</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li><a href="#">Retirement&Investings</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li><a href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        <!--page header-->
-        <header>
-            <h1 STYLE="font-family:Comic Sans MS; font-size: 35px; text-align: center; color:#4b3813;">Employee Personal Details</h1>
-        </header>
-        <!--main body of the page-->
-        <section>
-            <!--form for employee insurance-->
-            <form name="employeeInsuranceForm">
-                <div>
-                    <label for="fullName" >Employee Full Name:</label>
-                    <input type="text" id="fullName" name="fName" placeholder="Enter your Full Name"/>
-
+    <!--body of the web page-->
+    <body background="http://www.vikingmergers.com/wp-content/uploads/2015/04/Insurance.jpg">
+        <!--main article for forms-->
+        <article>
+            <header>
+                <h1 STYLE="font-family:Comic Sans MS; font-size: 35px; text-align: center; color:#4b3813;">Employee Personal Details</h1>
+            </header>
+                <div class="navBAR">
+                    <ul>
+                        <li>Home</li>
+                        <li>Insurance</li>
+                        <li>Banking</li>
+                        <li>Retirement&Investings</li>
+                        <li>Contact Us</li>
+                    </ul>
                 </div>
+            <!--main body of the page-->
+            <section>
+                <!--form for employee insurance-->
+                <form name="employeeInsuranceForm">
+                    <div class="container">
+                        <label for="fullName" >Employee Full Name:</label>
+                        <input type="text" id="fullName" name="fName" placeholder="Enter your Full Name"/>
+                    </div>
+                    <div>
+                        <label for="IDnumber">Employee ID Number:</label>
+                        <input type="text" id="IDnumber" name="IDnumber" placeholder="Enter your ID Number" />
+                    </div>
+                    <div>
+                        <label for="phoneNumber">Employee Phone Number:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                    </div>
 
-                <div>
-                    <label for="IDnumber">Employee ID Number:</label>
-                    <input type="text" id="IDnumber" name="IDnumber" placeholder="Enter your ID Number" />
-                </div>
-
-                <div>
-                    <label for="phoneNumber">Employee Phone Number:</label>
-                    <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
-
-                </div>
-
-                <!--email id-->
-                <div>
-                    <label for="email">Employee E-mail:</label>
-                    <input type="text" id="email" name="emailid" placeholder="Enter your E-mail" />
-                </div>
-
-                <!--Password-->
-                <div>
-                    <label for="Password">Password:</label>
-                    <input type="password" id="Password" name="Password" placeholder="Enter your Password" />
-                </div>
-
-                <!--Gender-->
-                <div>
-                    <label for="gender">Employee Gender:</label>
-                <div id="gender">
-                    <!--male-->
-                    <label for="male">Male:</label>
-                    <input type="radio" id="male" name="gender" value="Male"/>
-
-                    <!--female-->
-                    <label for="female">Female:</label>
-                    <input type="radio" id="female" name="gender" value="Female"/>
-                </div>
-                </div>
-
+                    <!--email id-->
+                    <div>
+                        <label for="email">Employee E-mail:</label>
+                        <input type="text" id="email" name="emailid" placeholder="Enter your E-mail" />
+                    </div>
+                    <!--Password-->
+                    <div>
+                        <label for="Password">Password:</label>
+                        <input type="password" id="Password" name="Password" placeholder="Enter your Password" />
+                    </div>
+                    <!--Gender-->
+                    <div>
+                        <label for="gender">Employee Gender:</label>
+                    <div id="gender">
+                        <!--male-->
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="Male"/>
+                        <!--female-->
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="Female"/>
+                    </div>
+                    </div>
                     <!--Employee Age-->
-                <div>
-                    <label for="Age">If Employee Age is above 25+</label>
-                    <input type="checkbox" id="Age" name="Age" />
-                </div>
-                <div>
-                    <label for="Age">Otherwise choose Date of Birth</label>
-                    <input id="Age" type="date" value="2016-10-18"/>
-                </div>
-
-                <!--Register button-->
-                <button type="submit" id="submit">
-                    <span>Register</span>
-                </button>
-                <!--reset/cancel-->
-                <button type="reset" id="reset">
-                    <span>Cancel</span>
-                </button>
-                <!--Clear the Fields-->
-                <button type="reset" id="reset">
-                    <span>Clear the fields</span>
-                </button>
-            </form>
-        </section>
-        <center>
-            <!--footer of the page-->
+                    <div class="container">
+                        <label for="Age">If Employee Age is above 25+</label>
+                        <input type="checkbox" id="Age" name="Age" />
+                    </div>
+                    <div class="container">
+                        <label for="Age">Otherwise choose Date of Birth</label>
+                        <input id="Age" type="date" value="2016-10-18"/>
+                    </div>
+                        <!--Register button-->
+                        <button type="submit" id="submit">
+                            <span>Register</span>
+                        </button>
+                        <!--reset/cancel-->
+                        <button type="reset" id="reset">
+                            <span>Cancel</span>
+                        </button>
+                        <!--Clear the Fields-->
+                        <button type="reset" id="reset">
+                            <span>Clear the fields</span>
+                        </button>
+                    </form>
+            </section>
+                <center>
+                <!--footer of the page-->
             <footer>
                 @Copyright of Employee Insurance Agency 2016
             </footer>
-        </center>
+                </center>
         </article>
     </body>
 </html>

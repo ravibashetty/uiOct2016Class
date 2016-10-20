@@ -1,23 +1,28 @@
 body{
    background-color: #dbefac;
-    }
-       form{
-          border: 2px solid #fff;
-            }
-    label{
-        display: block;
-         }
-        #reset{
-            color: #ff0000;
-            }
-    button[type="submit"]{
-        color: #023f99;
-            }
+}
 
-    button{
-        background-color: #79de7c;
-        border: 2px dotted #5855f6;
-        }
-    #fullName, #IDnumber, #phoneNumber, #email, #Password, #Age{
+form{
+    border: 2px solid #fff;
+}
+
+label{
+    display: block;
+}
+
+#reset{
+    color: #ff0000;
+}
+
+button[type="submit"]{
+    color: #023f99;
+}
+
+button{
+    background-color: #79de7c;
+    border: 2px dotted #5855f6;
+}
+
+#fullName, #IDnumber, #phoneNumber, #email, #Password, #Age{
     border-radius: 8px;
 }
