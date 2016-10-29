@@ -50,3 +50,6 @@ li{
     margin-right: auto;
     width: 250px;
 }
+div > p{
+color: #fff;
+}

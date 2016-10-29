@@ -1,0 +1,32 @@
+ul{
+color: #000;
+}
+
+form{
+    border: 2px solid #000;
+        border-radius: 10px;
+        width: 250px;
+        text-align: center;
+        padding: 28px;
+        position: absolute;
+        left: 510px;
+        top: 133px;
+}
+
+#menu{
+list-style-type: none;
+display: inline-block;
+}
+
+label{
+    height: 25px;
+    color: #000;
+    padding-top: 15px;
+    width: 100%;
+    display: block;
+}
+
+#fullName, #IDnumber, #phoneNumber, #email, #Password, #Age{
+    border-radius: 7px;
+    background-color: #ecedfc;
+    }
