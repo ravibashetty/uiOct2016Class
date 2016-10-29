@@ -1,0 +1,137 @@
+#nav-heading > nav{
+    position: fixed;
+    background-color: #81a7af;
+    display: inline-block;
+    height: 233px;
+    color: #fff;
+    top: 150px;
+    left: 3%;
+}
+
+#nav-heading > nav > ul{
+    list-style-type: none;
+}
+
+#nav-heading > nav > ul li{
+    padding: 10px;
+}
+
+#nav-heading > nav > ul li:hover{
+    background-color: #6c8afe;
+}
+
+#nav-heading > nav > ul li a{
+    color: #fff;
+    font-family:Comic Sans MS;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav-heading > nav > ul li:hover > a{
+    color: #f166a2;
+    text-decoration: underline;
+}
+
+form{
+    border: 10px solid #000;
+    background: #c8bcd0;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 28px;
+    position: absolute;
+    left: 510px;
+    top: 133px;
+}
+
+label{
+    height: 25px;
+    color: #000;
+    padding-top: 15px;
+    width: 100%;
+    display: block;
+}
+
+#fullName, #IDnumber, #phoneNumber, #email, #Password, #Age{
+    border-radius: 7px;
+    background-color: #ecedfc;
+    }
+
+button{
+    padding: 5px;
+    border: 2px solid #a0c296;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]{
+    background-color: #fd3daf;
+}
+
+button[type="submit"]:hover{
+    background-color: #7696f3;
+    color: #fff;
+}
+
+button[type="reset"]{
+    background-color: #e75263;
+}
+
+button[type="reset"]:hover{
+    background-color: #86fe80;
+color: #fff;
+}
+
+#main-footer{
+    position: fixed;
+    background-color: #aac4c9;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#main-footer{
+    height: 25px;
+    bottom: 0;
+    border-top: 1px solid #ccccb9;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#main-footer > nav{
+    left: 31%;
+    position: relative;
+}
+
+#main-footer > nav{
+    top: -22px;
+}
+
+#main-footer > nav > ul{
+    list-type: none;
+}
+
+#main-footer > nav > ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+#main-footer > nav > ul li{
+    padding: 10px 15px;
+}
+
+#main-footer > nav > ul li:hover{
+    background-color: #5e84ce;
+    cursor: pointer;
+}
+
+#main-footer > nav > ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+#main-footer > nav > ul li:hover > a{
+    color: #e1253a;
+    text-decoration: underline;
+}
