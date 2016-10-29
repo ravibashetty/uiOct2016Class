@@ -24,58 +24,58 @@
 <!--main article for forms-->
 <article>
     <header id="main-heading">
-        <h1 STYLE="font-family:Comic Sans MS; font-size: 35px; text-align: center; color:#e0e5fc;">Employee Personal Details</h1>
+        <h1 STYLE="font-family:Comic Sans MS; font-size: 35px; text-align: center; color:#fff;">Employee Personal Details</h1>
     </header>
 
     <section id="main-section">
         <article>
             <header id="nav-heading">
-                <nav class="navbar">
+                <nav>
                     <ul id="menu">
-            <li>
-                <a href="https://www.facebook.com/">Home</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/">Insurance</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/">Banking</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/">Retirement&Investings</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/">Contact Us</a>
-            </li>
-        </ul>
-    </nav>
-                </header>
+                        <li>
+                            <a href="https://www.facebook.com/">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">Insurance</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">Banking</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">Retirement&Investings</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
     <!--main body of the page-->
     <section>
         <!--form for employee insurance-->
         <form name="employeeInsuranceForm">
             <div class="container">
                 <label for="fullName" >Employee Full Name:</label>
-                <input type="text" id="fullName" name="fName" placeholder="Enter your Full Name"/>
+                <input type="text" id="fullName" name="fName" placeholder="Enter your Full Name" required/>
             </div>
             <div>
                 <label for="IDnumber">Employee ID Number:</label>
-                <input type="text" id="IDnumber" name="IDnumber" placeholder="Enter your ID Number" />
+                <input type="text" id="IDnumber" name="IDnumber" placeholder="Enter your ID Number" required/>
             </div>
             <div>
                 <label for="phoneNumber">Employee Phone Number:</label>
-                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" required/>
             </div>
 
             <!--email id-->
             <div>
                 <label for="email">Employee E-mail:</label>
-                <input type="text" id="email" name="emailid" placeholder="Enter your E-mail" />
+                <input type="text" id="email" name="emailid" placeholder="Enter your E-mail" required/>
             </div>
             <!--Password-->
             <div>
                 <label for="Password">Password:</label>
-                <input type="password" id="Password" name="Password" placeholder="Enter your Password" />
+                <input type="password" id="Password" name="Password" placeholder="Enter your Password" required/>
             </div>
             <!--Gender-->
             <div>
@@ -90,53 +90,50 @@
                 </div>
             </div>
             <!--Employee Age-->
-            <div class="container">
-                <label for="Age">If Employee Age is above 25+</label>
-                <input type="checkbox" id="Age" name="Age" />
-            </div>
-            <div class="container">
-                <label for="Age">Otherwise choose Date of Birth</label>
-                <input id="Age" type="date" value="2016-10-18"/>
-            </div>
-            <!--Register button-->
-            <button type="submit" id="submit">
-                <span>Register</span>
-            </button>
-            <!--reset/cancel-->
-            <button type="reset" id="reset">
-                <span>Cancel</span>
-            </button>
-            <!--Clear the Fields-->
-            <button type="reset" id="reset">
-                <span>Clear the fields</span>
-            </button>
-        </form>
-    </section>
-            <footer>
-                <div id="navbarfooter">
-                    <nav class="navbar">
-                        <ul>
-                            <li>Home</li>
-                            <li>Insurance</li>
-                            <li>Banking</li>
-                            <li>Retirement&Investings</li>
-                            <li>Contact Us</li>
-                        </ul>
-                    </nav>
+                <div class="container">
+                    <label for="Age">If Employee Age is above 25+</label>
+                    <input type="checkbox" id="Age" name="Age" />
                 </div>
-            </footer>
-            </article>
-        </section>
-
-
+                <div class="container">
+                    <label for="Age">Otherwise choose Date of Birth</label>
+                    <input id="Age" type="date" value="2016-10-18"/>
+                </div>
+                <!--Register button-->
+                <button type="submit" id="submit">
+                    <span>Register</span>
+                </button>
+                <!--reset/cancel-->
+                <button type="reset" id="reset">
+                    <span>Cancel</span>
+                </button>
+                <!--Clear the Fields-->
+                <button type="reset" id="reset">
+                    <span>Clear the fields</span>
+                </button>
+            </form>
+    </section>
+            <footer></footer>
+        </article>
+    </section>
         <!--footer of the page-->
-        <footer id="main-footer">
-            <div>
-                <h2>para1</h2>
-                <p>para2</p>
-            </div>
-        </footer>
-
+    <footer id="main-footer">
+    <nav>
+        <ul>
+            <li>
+                <a href="www.google.com">about us</a>
+            </li>
+            <li>
+                <a href="www.google.com">map</a>
+            </li>
+            <li>
+                <a href="www.google.com">complaint</a>
+            </li>
+            <li>
+                <a href="www.google.com">feedback</a>
+            </li>
+        </ul>
+    </nav>
+    </footer>
 </article>
 </body>
 </html>
