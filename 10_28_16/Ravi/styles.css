@@ -1,11 +1,26 @@
+body{
+    background: url('5.jpg');
+}
+
+#main-heading{
+    font-family:Comic Sans MS;
+    font-size: 25px;
+    text-align: center;
+    background: url('4.jpg');
+    color:#fff;
+    height: 75px;
+    position: relative;
+    top: -30px;
+}
+
 #nav-heading > nav{
     position: fixed;
-    background-color: #81a7af;
+    background: url('3.jpg');
     display: inline-block;
     height: 233px;
     color: #fff;
     top: 150px;
-    left: 3%;
+    left: 1%;
 }
 
 #nav-heading > nav > ul{
@@ -33,15 +48,37 @@
 }
 
 form{
-    border: 10px solid #000;
-    background: #c8bcd0;
+    border: 2px solid #fa9ae1;
+    background: url('1.jpg');
     border-radius: 10px;
-    width: 250px;
+    width: 280px;
     text-align: center;
+    font-size: 15px;
+    font-family:Comic Sans MS;
     padding: 28px;
     position: absolute;
-    left: 510px;
-    top: 133px;
+    left: 329px;
+    top: 140px;
+}
+
+#pr-heading{
+    color: #99cf72;
+    position: relative;
+    top: 35%;
+    left: 67%;
+    font-size: 50px;
+    font-family:Comic Sans MS;
+    background: url('1.jpg');
+    height: 65px;
+    width: 270px;
+}
+
+#samp-footer{
+    font-family: courier new;
+    font-size: 12px;
+    color: #000;
+    position: fixed;
+    bottom: 25px;
 }
 
 label{
@@ -55,7 +92,7 @@ label{
 #fullName, #IDnumber, #phoneNumber, #email, #Password, #Age{
     border-radius: 7px;
     background-color: #ecedfc;
-    }
+}
 
 button{
     padding: 5px;
@@ -79,12 +116,12 @@ button[type="reset"]{
 
 button[type="reset"]:hover{
     background-color: #86fe80;
-color: #fff;
+    color: #fff;
 }
 
 #main-footer{
     position: fixed;
-    background-color: #aac4c9;
+    background: url('2.jpg');
     left: 0;
     width: 100%;
     z-index: 999;
