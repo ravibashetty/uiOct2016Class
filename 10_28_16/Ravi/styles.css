@@ -11,6 +11,12 @@ body{
     height: 75px;
     position: relative;
     top: -30px;
+    opacity:0.5;
+}
+
+#main-heading:hover{
+    opacity:1;
+    color: #fff;
 }
 
 #nav-heading > nav{
@@ -137,11 +143,8 @@ button[type="reset"]:hover{
 
 #main-footer > nav{
     left: 31%;
-    position: relative;
-}
-
-#main-footer > nav{
     top: -22px;
+    position: relative;
 }
 
 #main-footer > nav > ul{

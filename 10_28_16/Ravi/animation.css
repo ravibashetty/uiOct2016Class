@@ -6,5 +6,50 @@
     transform: scale(2,2);
 }
 
+#main-heading{
+     -webkit-transition:all 5s ease-in-out;
+      -moz-transition:all 5s ease-in-out;
+      -ms-transition:all 5s ease-in-out;
+       transition:all 5s ease-in-out;
+}
 
+#nav-heading > nav > ul li:hover{
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -o-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
 
+@keyframes upAndDown{
+    0%,100% {
+        opacity: 0;
+
+        left: 31%;
+
+    }
+    50% {
+        opacity: 1;
+
+        left: 0;
+
+    }
+}
+
+@keyframes scrollContent{
+    0% {
+       left: -50%;
+    }
+    100% {
+        left: 50%;
+    }
+}
+
+.scrollBar{
+    position: relative;
+    -webkit-animation: scrollContent 20s 2;
+    -moz-animation: scrollContent 20s 2;
+    -o-animation: scrollContent 20s 2;
+    -ms-animation: scrollContent 20s 2;
+    animation: scrollContent 20s 2;
+}
