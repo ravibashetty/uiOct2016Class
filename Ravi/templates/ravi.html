@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--title of this html file-->
+    <title>Online Banking</title>
+
+    <!--this is external style-->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../stylesheets/styles/styles.css" rel="stylesheet"/>
+
+
+    <!--meta - this is used to describe more mata information-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8"/>
+
+</head>
+    <!--body of the web page-->
+    <body>
+        <!--main article for forms-->
+        <section class="container">
+            <header class="pr-heading">
+                <h1>Sign in to Online Banking</h1>
+            </header>
+            <article class="container-fluid">
+
+                <div class="row">
+                    <figure class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img src="../images/6.jpg">
+                    </figure>
+                </div>
+
+                <!--creating the form-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <form name="bofalogin">
+                        <!--online id-->
+                        <div class="form-group">
+                            <label for="loginid">Online ID</label>
+                            <input type="text" id="loginid" name="loginid" class="form-control"/>
+                        </div>
+
+                        <div class="ravi">
+                            <input type="checkbox" id="save" name="save" />
+                            <label for="save">Save this Online ID</label>
+
+                        <!--For Password-->
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" class="form-control"/>
+                                <a href="#">Forgot Password?</a>
+                        </div>
+
+                        <!--Sign in button-->
+                        <div class = "form-group">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="glyphicon glyphicon-lock"></i> Sign in
+                            </button>
+                        </div>
+                         </div>
+                    </form>
+                </div>
+            </article>
+            <footer>
+
+            </footer>
+        </section>
+    </body>
+</html>
