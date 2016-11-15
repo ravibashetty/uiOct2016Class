@@ -1,6 +1,5 @@
-@media only screen and (min-width:768px) and (max-width:1024px) and (orientation: potrait){
-    width: 100%;
-    body{
-    background-color: @white;
+.ipad(@maxWidth, @orientation){
+    @media only screen and (max-width: @maxWidth) and (orientation: @orientation){
+        font-size: 10px;
     }
 }
