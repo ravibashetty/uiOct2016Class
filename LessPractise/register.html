@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="main">
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylesheets/Styles/register.css" rel="stylesheet">
+</head>
+    <body>
+        <article class="container">
+            <header>
+                <nav>
+                    <ul>
+                        <li class="selected">
+                            <a href="#">Personal</a>
+                        </li>
+                        <li>
+                            <a href="#">Small Business</a>
+                        </li>
+                        <li>
+                            <a href="#">Wealth Management</a>
+                        </li>
+                        <li>
+                            <a href="#">Business & Institutions</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+        <section class="container-fluid">
+            <header class="header1">
+
+                <figure class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="images/bofa2.png" class="image-bofa">
+                </figure>
+            </header>
+        <article class="container">
+
+            <div class="row">
+
+                <form class="register-form">
+                    <!--online id-->
+                    <h4>Customer Details</h4>
+                    <div class="container">
+                        <label for="fullName" >Customer Full Name:</label>
+                        <input type="text" id="fullName" name="fName" placeholder="Enter your Full Name" required/>
+                    </div>
+
+                    <div>
+                        <label for="phoneNumber">Customer Phone Number:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" required/>
+                    </div>
+
+                    <!--email id-->
+                    <div>
+                        <label for="email">Customer E-mail:</label>
+                        <input type="text" id="email" name="emailid" placeholder="Enter your E-mail" required/>
+                    </div>
+
+                    <!--Gender-->
+                    <div>
+                        <label for="gender">Employee Gender:</label>
+                        <div id="gender">
+                            <!--male-->
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="Male"/>
+                            <!--female-->
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="Female"/>
+                        </div>
+                    </div>
+                    <!--Employee Age-->
+                    <div class="container">
+                        <label for="Age">If Customer Age is above 25+</label>
+                        <input type="checkbox" id="Age" name="Age" />
+                    </div>
+                    <div class="container">
+                        <label for="Age">Otherwise choose Date of Birth</label>
+                        <input id="Age" type="date" value="2016-10-18"/>
+                    </div>
+                    </form>
+                    <div class="register">
+                        <ul>
+                            <li>
+                                Already have account?
+                                <a href="index.html">Login Here</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        </article>
+
+    </body>
+</html>

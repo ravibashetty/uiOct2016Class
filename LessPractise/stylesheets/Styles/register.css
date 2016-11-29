@@ -1,0 +1,54 @@
+.container {
+  display: block;
+  margin: auto;
+  float: none;
+}
+nav ul {
+  list-style-type: none;
+  position: fixed;
+  top: -15px;
+  left: 38%;
+}
+nav ul li {
+  display: inline-block;
+  padding: 3px 15px;
+  height: 29px;
+  background-color: #f9f7f4;
+  border-left: 2px solid #dadada;
+  border-bottom: 1px solid #e8e8e8;
+}
+nav ul a {
+  color: #000;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+}
+.selected {
+  background: #fff;
+  border-bottom: 0;
+}
+.register ul {
+  list-style-type: none;
+  position: relative;
+  bottom: -75px;
+  left: -4%;
+}
+.register ul li {
+  display: inline-block;
+  padding: 3px 15px;
+  height: 29px;
+  font-size: 20px;
+}
+.register ul a {
+  color: #793a9e;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+  text-decoration: underline;
+}
+
+.register-form{
+    border: 2px solid #000;
+    width: 50%;
+    font-size: 17px;
+    padding: 28px;
+    font-family:Comic Sans MS;
+}
